@@ -3,6 +3,7 @@
 传入File对象或文件路径即可计算文件MD5值。
 提供了同步和异步方法。异步方法由RxJava包装。**使用同步方法注意不要在UI主线程中调用，因为计算MD5值较为耗时**
 使用示例：
+
 ```java
 String filePath = "";
         SecurityHelper.getInstance()
